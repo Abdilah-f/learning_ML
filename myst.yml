@@ -1,15 +1,16 @@
-# See docs at: https://mystmd.org/guide/frontmatter
 version: 1
 project:
   id: 6c334420-ae7e-4713-a339-efe65e428dc9
-  # title:
-  # description:
-  # keywords: []
-  # authors: []
-  # github:
-  # To autogenerate a Table of Contents, run "jupyter book init --write-toc"
+  title: ML for Chemistry
+  description: A course on Machine Learning for Chemistry and Materials Science
+  authors:
+    - name: Abdilah Fauzi
+  github: https://github.com/Abdilah-f/learning_ML
+  chapters:
+    - file: intro
+      title: Introduction
+    - file: lesson_01_python_refresher
+      title: "Lesson 1: Python Refresher"
 site:
   template: book-theme
-  # options:
-  #   favicon: favicon.ico
-  #   logo: site_logo.png
+  base_url: /learning_ML/
